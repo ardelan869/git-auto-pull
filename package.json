@@ -1,14 +1,14 @@
 {
   "name": "git-auto-pull",
-  "module": "index.ts",
-  "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest"
+  "module": "index.mjs",
+  "dependencies": {
+    "cron": "^4.3.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-  "dependencies": {
-    "cron": "^4.3.0"
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.15.16"
   }
 }
